@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(58, 153, 236);
+}
+#name{
+    font-size: 70px;
+    color:black;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+#pic{
+    width:200px;
+    height:200px;
+    border-radius: 190;
+    margin-left: 600px;
+}
+#about{
+    background-color: aliceblue;
+    margin: 30px;
+}
+#videos{
+    text-align: center;
+}
+#apps{
+    text-align: center;
+}
+#apps p{
+font-size: 25px;
+text-decoration: underline;
+}
+.background{
+    background-image: url(colorful-balloons-inair.jpeg);
+    background-size: cover;
+}
+.my_nav_bar{
+    position: sticky;
+    top:0;
+    z-index: 99999;
+}
+li{
+    display: inline-block;
+    color: black;
+}
+p{
+    font-size: 25px;
+}
